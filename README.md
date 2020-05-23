@@ -1,2 +1,3 @@
 # RedisAI
-A redisAI + NodeJS test project
+
+*A redisAI + NodeJS + Express test project
