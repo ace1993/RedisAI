@@ -1,3 +1,9 @@
+#local
+data*
+*.yml
+*.sh
+*.txt
+
 # Logs
 logs
 *.log
