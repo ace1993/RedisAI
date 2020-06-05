@@ -1,6 +1,6 @@
 #! start redis with pulling the image
 #!'`'(above tab) is command equivalent to "\" from bash having all in a single line
-#!docker pull redislabs/redismod
+docker pull redislabs/redismod
 
 docker run `
   -p 6379:6379 `

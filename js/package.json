@@ -1,0 +1,26 @@
+{
+  "name": "dnd-classinator",
+  "version": "0.1.0",
+  "description": "D&D classinator test project",
+  "scripts": {
+    "test": "mocha",
+    "debug": "node --inspect server.js"
+  },
+  "mocha": {
+    "spec": "spec/**/*-spec.js",
+    "ui": "bdd"
+  },
+  "author": "Alex",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "ioredis": "^4.17.3"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "chai": "^4.2.0",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  }
+}
